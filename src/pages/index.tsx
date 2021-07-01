@@ -1,10 +1,6 @@
-import React from 'react';
-import { NextPage } from 'next';
+import React from "react";
+import { NextPage } from "next";
 
-const Homepage: NextPage = () => (
-  <>
-    Hello world
-  </>
-);
+const Homepage: NextPage = () => <div>Hello world</div>;
 
 export default Homepage;

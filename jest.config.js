@@ -1,5 +1,5 @@
 module.exports = {
-  preset: 'ts-jest',
+  preset: "ts-jest",
   coverageThreshold: {
     global: {
       statements: 95,
@@ -8,12 +8,10 @@ module.exports = {
       lines: 95,
     },
   },
-  setupFilesAfterEnv: [
-    './tests/setupTests.ts',
-  ],
+  setupFilesAfterEnv: ["./tests/setupTests.ts"],
   globals: {
-    'ts-jest': {
-      tsconfig: './tsconfig.jest.json',
+    "ts-jest": {
+      tsconfig: "./tsconfig.jest.json",
     },
     statements: 0,
     branches: 0,
